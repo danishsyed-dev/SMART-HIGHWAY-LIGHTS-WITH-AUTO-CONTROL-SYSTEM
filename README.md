@@ -61,8 +61,7 @@ Traditional street lighting systems remain ON throughout the night, consuming va
 ## 📸 Circuit Diagram & Gallery
 
 ### Circuit Diagram
-![Circuit Diagram - Placeholder](docs/images/circuit-diagram.png)
-*(Place your circuit diagram here)*
+![Circuit Diagram](Artifacts/Screenshot-(109).png)
 
 ### Project Prototype
 ![Prototype View 1](Artifacts/20220106_205007.jpg)
