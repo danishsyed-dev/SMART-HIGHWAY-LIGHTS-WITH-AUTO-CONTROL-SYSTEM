@@ -2,8 +2,7 @@
 
 **Diploma Major Project (2019)**
 
-![Project Hero Image - Placeholder](docs/images/project-banner.png)
-*(Replace with actual project photo)*
+![Project Hero Image](Artifacts/IMG-20220106-WA0001.jpg)
 
 ## 📄 Abstract
 Traditional street lighting systems remain ON throughout the night, consuming vast amounts of energy regardless of traffic flow. This project, **Smart Highway Lights with Auto Control System**, introduces an intelligent solution that uses sensors to detect vehicle movement and ambient light, activating street lights only when necessary. This significantly reduces energy consumption and maintenance costs.
@@ -66,9 +65,9 @@ Traditional street lighting systems remain ON throughout the night, consuming va
 *(Place your circuit diagram here)*
 
 ### Project Prototype
-![Prototype Image 1 - Placeholder](docs/images/prototype-1.png)
+![Prototype View 1](Artifacts/20220106_205007.jpg)
 
-![Prototype Image 2 - Placeholder](docs/images/prototype-2.png)
+![Prototype View 2](Artifacts/20220106_205044.jpg)
 
 ---
 
