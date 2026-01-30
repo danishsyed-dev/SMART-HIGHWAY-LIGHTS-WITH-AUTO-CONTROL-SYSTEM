@@ -1,0 +1,22 @@
+name: Compile Sketch
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Arduino CLI
+        uses: arduino/setup-arduino-cli@v1
+
+      - name: Install Libraries
+        run: |
+          arduino-cli lib update-index
+          arduino-cli lib install "LiquidCrystal"
+
+      - name: Compile Sketch
+        run: |
+          arduino-cli compile --fqbn arduino:avr:uno src/SmartHighwayLights

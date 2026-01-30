@@ -79,6 +79,20 @@ Traditional street lighting systems remain ON throughout the night, consuming va
    - As the vehicle moves to **IR Sensor 2**, the next set of lights turns ON.
    - Lights automatically turn OFF after a delay once the vehicle passes.
 
+### System Flowchart
+```mermaid
+graph TD
+    A[Start] --> B{Is it Night?}
+    B -- No --> C[Lights OFF]
+    C --> A
+    B -- Yes --> D{Vehicle Detected?}
+    D -- No --> E[Lights OFF/Standby]
+    E --> A
+    D -- Yes --> F[Turn ON Ahead Lights]
+    F --> G[Wait Delay]
+    G --> E
+```
+
 ---
 
 ## 📁 Repository Structure
