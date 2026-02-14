@@ -15,3 +15,4 @@
 | **USB Cable** | Type A to Type B (Printer cable). | 1 | Uploading code & Power |
 
 > **Note:** For a real highway implementation, LEDs would be replaced by Relay Modules controlling high-voltage AC street lamps.
+https://github.com/danishsyed-dev/SMART-HIGHWAY-LIGHTS-WITH-AUTO-CONTROL-SYSTEM/actions/runs/21528200219/job/62037204516#step:5:1
